@@ -3,7 +3,7 @@ import LOGO from "../../public/images/logo.png";
 export default function Navbar() {
   return (
     <>
-      <ul className="flex items-center justify-between p-4 text-lg tracking-wider scroll-smooth border-b border-gray-300 shadow-sm">
+      <ul className="flex bg-white items-center justify-between p-4 text-lg tracking-wider scroll-smooth border-b border-gray-300 shadow-sm">
         <div className="h-[50px] w-[100px] ml-6">
           <li className=" h-auto">
             <img src={LOGO} alt="logo" className="h-[65px] w-100px] " />
