@@ -4,7 +4,7 @@ import profit from "../../public/images/profit.jpg";
 import arrow from "../../public/images/arrow.png";
 export default function about_bitcoin() {
   return (
-    <div className="h-auto rounded-md w-[90%] lg:w-[60%] mx-2 ml-4 lg:ml-14 bg-white py-4 px-2 mt-10 mb-6">
+    <div className="h-auto rounded-md w-[90%] lg:w-[60%] mx-2 ml-4 lg:ml-14 bg-white py-4 px-2 lg:px-8 mt-10 mb-6">
       <h2 className="font-semibold text-3xl mb-4">About Bitcoin</h2>
       <h3 className="font-semibold text-l mb-2">What is Bitcoin?</h3>
       <p>

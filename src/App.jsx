@@ -6,6 +6,7 @@ import Coin from "./sections/coin";
 import TrendingCoins from "./sections/TrendingCoins";
 import You_may_also_like from "./sections/You_may_also_like";
 import GetStarted from "./sections/GetStarted";
+import Performance from "./sections/Performance";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <div className="bg-gray-200 pb-10">
         <Navbar />
         <Coin />
-
+        <Performance />
         <About />
         <Tokenomics />
         <Team />
