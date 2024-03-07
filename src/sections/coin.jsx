@@ -19,7 +19,7 @@ export default function Coin() {
   return (
     <div className="h-auto  rounded-md w-[60%] ml-14 bg-white py-4 px-6 mt-10 mb-6">
       <div className="flex flex-col ">
-        <div className="flex">
+        <div className="flex -translate-x-2">
           <img
             src={bitcoin}
             alt="Bitcoin"

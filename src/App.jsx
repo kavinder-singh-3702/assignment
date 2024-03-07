@@ -12,14 +12,15 @@ function App() {
     <>
       <div className="bg-gray-200 pb-10">
         <Navbar />
-        <Coin />
-        {/* <GetStarted />
+        <GetStarted />
         <TrendingCoins />
+        <Coin />
+
         <About />
         <Tokenomics />
         <Team />
         <You_may_also_like heading={"You May Also Like"} />
-        <You_may_also_like heading={"Trending Coins"} /> */}
+        <You_may_also_like heading={"Trending Coins"} />
       </div>
     </>
   );
