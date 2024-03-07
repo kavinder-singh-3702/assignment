@@ -4,6 +4,8 @@ import About from "./sections/about_bitcoin";
 import Tokenomics from "./sections/tokenomics";
 import Coin from "./sections/coin";
 import TrendingCoins from "./sections/TrendingCoins";
+import You_may_also_like from "./sections/You_may_also_like";
+import GetStarted from "./sections/GetStarted";
 
 function App() {
   return (
@@ -11,10 +13,13 @@ function App() {
       <div className="bg-gray-200 pb-10">
         <Navbar />
         <Coin />
+        {/* <GetStarted />
         <TrendingCoins />
-        {/* <About />
+        <About />
         <Tokenomics />
-        <Team /> */}
+        <Team />
+        <You_may_also_like heading={"You May Also Like"} />
+        <You_may_also_like heading={"Trending Coins"} /> */}
       </div>
     </>
   );

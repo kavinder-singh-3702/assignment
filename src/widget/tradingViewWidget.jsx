@@ -12,16 +12,16 @@ function TradingViewWidget() {
     script.async = true;
     script.innerHTML = `
         {
-          "autosize": true,
-          "symbol": "COINBASE:BTCUSD",
-          "interval": "D",
+          "width": "800",
+          "height": "600",
+          "symbol": "BITSTAMP:BTCUSD",
+          "interval": "W",
           "timezone": "Etc/UTC",
           "theme": "light",
           "style": "2",
           "locale": "en",
           "enable_publishing": false,
-          "hide_top_toolbar": true,
-          "hide_legend": true,
+          "withdateranges": true,
           "allow_symbol_change": true,
           "save_image": false,
           "calendar": false,
@@ -32,15 +32,8 @@ function TradingViewWidget() {
   }, []);
 
   return (
-    <div
-      className="tradingview-widget-container"
-      ref={container}
-      style={{ height: "100%", width: "100%" }}
-    >
-      <div
-        className="tradingview-widget-container__widget"
-        style={{ height: "calc(100% - 32px)", width: "100%" }}
-      ></div>
+    <div className="tradingview-widget-container" ref={container}>
+      <div className="tradingview-widget-container__widget"></div>
       <div className="tradingview-widget-copyright">
         <a
           href="https://www.tradingview.com/"
@@ -53,4 +46,5 @@ function TradingViewWidget() {
     </div>
   );
 }
+
 export default memo(TradingViewWidget);
