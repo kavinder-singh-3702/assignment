@@ -1,5 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
 import tax from "../../public/images/tax.jpg";
 import profit from "../../public/images/profit.jpg";
 import arrow from "../../public/images/arrow.png";
@@ -102,9 +101,4 @@ export default function about_bitcoin() {
       </div>
     </div>
   );
-=======
-
-export default function about_bitcoin() {
-  return <div></div>;
->>>>>>> 2c9231e (initial commit)
 }
