@@ -16,7 +16,7 @@ export default function TrendingCoins() {
   const top3Coins = coinsArray.coins.slice(0, 3);
 
   return (
-    <div className="lg:absolute lg:right-[3vw] lg:top-[85vh] h-auto rounded-md w-[28%] ml-14 bg-white py-6 px-6 mt-6 pb-12">
+    <div className="lg:absolute lg:right-[3vw] lg:top-[85vh] h-auto rounded-md w-[90%] mx-2 lg:mx-0 lg:w-[28%] lg:ml-14 ml-5 bg-white py-6 px-6 mt-6 pb-12">
       <h2 className="font-semibold text-xl mb-8 ml-1">Trending Coins(24H)</h2>
       <ul className="flex flex-col gap-8">
         {top3Coins.map((coin, index) => (

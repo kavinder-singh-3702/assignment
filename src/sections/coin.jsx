@@ -17,7 +17,7 @@ export default function Coin() {
   console.log(data);
 
   return (
-    <div className="h-auto  rounded-md w-[60%] ml-14 bg-white py-4 px-6 mt-10 mb-6">
+    <div className="h-auto  rounded-md w-[90%] mx-4 lg:w-[60%] lg:ml-14 bg-white py-4 px-6 mt-10 mb-6">
       <div className="flex flex-col ">
         <div className="flex -translate-x-2">
           <img

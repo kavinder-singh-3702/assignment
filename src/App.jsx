@@ -12,8 +12,6 @@ function App() {
     <>
       <div className="bg-gray-200 pb-10">
         <Navbar />
-        <GetStarted />
-        <TrendingCoins />
         <Coin />
 
         <About />
@@ -21,6 +19,8 @@ function App() {
         <Team />
         <You_may_also_like heading={"You May Also Like"} />
         <You_may_also_like heading={"Trending Coins"} />
+        <GetStarted />
+        <TrendingCoins />
       </div>
     </>
   );

@@ -2,7 +2,7 @@ import Team_member from "../components/team_member";
 
 export default function team() {
   return (
-    <div className="h-auto rounded-md w-[60%] ml-14 bg-white py-6 px-6 mt-6 pb-12">
+    <div className="h-auto rounded-md w-[90%] lg:w-[60%] mx-2 ml-4 lg:ml-14 bg-white py-6 px-3 mt-6 pb-12">
       <h2 className="font-semibold text-3xl mb-4">Team</h2>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur

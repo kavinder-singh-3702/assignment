@@ -9,7 +9,7 @@ export default function show_coins({
 }) {
   let profit = price_change > 0;
   return (
-    <div className="flex flex-col w-[18vw] border border-solid border-grey-200 rounded-md p-4 mb-4 ml-6 flex-1">
+    <div className="flex flex-col w-[35vw] lg:w-[18vw] border border-solid border-grey-200 rounded-md p-4 mb-4 lg:ml-6 ml-2 flex-1">
       <div className="flex gap-1  items-center">
         <img src={logo} alt="" className="rounded-[50%] w-[25px]" />
         <h1 className="text-[10px]">{symbol}</h1>
@@ -25,7 +25,7 @@ export default function show_coins({
           )}
         </h1>
       </div>
-      <h1>{price}</h1>
+      <h1 className="mt-2 lg:mt-0">{price}</h1>
       <img src={sparkline} alt="" className="w-[20vw]" />
     </div>
   );

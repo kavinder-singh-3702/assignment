@@ -17,7 +17,7 @@ export default function YouMayAlsoLike({ heading }) {
   console.log(top8Coins);
 
   return (
-    <div className="h-auto rounded-md w-[80%] ml-14 bg-white py-6 px-6 mt-6 pb-12">
+    <div className="h-auto rounded-md w-[90%] lg:w-[60%] mx-2 ml-4 lg:ml-14 bg-white py-6 px-2 mt-6 pb-12">
       <h2 className="font-semibold text-xl mb-4 ml-5">{heading}</h2>
       <ul className="flex overflow-auto gap-1">
         {top8Coins.map((coin, index) => (

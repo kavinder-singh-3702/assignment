@@ -4,7 +4,7 @@ import profit from "../../public/images/profit.jpg";
 import arrow from "../../public/images/arrow.png";
 export default function about_bitcoin() {
   return (
-    <div className="h-auto rounded-md w-[60%] ml-14 bg-white py-4 px-6 mt-10 mb-6">
+    <div className="h-auto rounded-md w-[90%] lg:w-[60%] mx-2 ml-4 lg:ml-14 bg-white py-4 px-2 mt-10 mb-6">
       <h2 className="font-semibold text-3xl mb-4">About Bitcoin</h2>
       <h3 className="font-semibold text-l mb-2">What is Bitcoin?</h3>
       <p>
@@ -59,12 +59,12 @@ export default function about_bitcoin() {
           <h2 className="font-semibold text-xl mb-4">
             Already Holding Bitcoin?
           </h2>
-          <div className="flex gap-10">
-            <div className="bg-blue-400 flex-1 justify-around gap-6 items-center rounded-md flex p-4">
+          <div className="flex gap-10 flex-1 lg:flex-row flex-col">
+            <div className="bg-blue-400  justify-around gap-6 items-center rounded-md flex p-4">
               <img
                 src={profit}
                 alt=""
-                className="h-[15vh] w-[15vh]  rounded-md"
+                className="h-[15vh] lg:w-[10vw] w-[20vw] rounded-md"
               />
               <div className="flex flex-col h-full mr-20 gap-4">
                 <p className="text-xl text-white font-semibold">
@@ -76,8 +76,12 @@ export default function about_bitcoin() {
                 </button>
               </div>
             </div>
-            <div className="bg-red-400 flex-1 flex justify-around gap-6 items-center rounded-md p-4">
-              <img src={tax} alt="" className="h-[15vh] w-[15vh] rounded-md" />
+            <div className="bg-red-400  flex justify-around gap-6 items-center rounded-md p-4">
+              <img
+                src={tax}
+                alt=""
+                className="h-[15vh] lg:w-[10vw] w-[20vw] rounded-md"
+              />
               <div className="flex flex-col h-full mr-20 gap-4">
                 <p className="text-xl  text-white font-semibold ">
                   Calculate Your tax liability

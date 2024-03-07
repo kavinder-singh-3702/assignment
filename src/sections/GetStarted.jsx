@@ -4,7 +4,7 @@ import getStarted from "../../public/images/getStarted.png";
 
 export default function GetStarted() {
   return (
-    <div className="lg:absolute lg:right-[3vw] lg:top-[18vh] rounded-md gap-10 bg-[#0e52fc] flex flex-col justify-center items-center p-4 w-[28vw] h-[65vh] ">
+    <div className="lg:absolute w-[90%] mt-6 mx-2 ml-5  lg:mx-0 lg:right-[3vw] lg:top-[18vh] rounded-md gap-10 bg-[#0e52fc] flex flex-col justify-center items-center p-4 lg:w-[28vw] lg:h-[65vh] ">
       <div className="flex flex-col gap-4 text-[3vh] font-bold text-white justify-center items-center">
         <h1 className="">Get Started with KoinX</h1>
         <h1 className="">For Free</h1>
